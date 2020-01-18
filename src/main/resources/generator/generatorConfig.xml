@@ -25,11 +25,11 @@
                         userId="root" password="123456">
         </jdbcConnection>
         <!--指定生成model的路径-->
-        <javaModelGenerator targetPackage="com.mall.demo.model" targetProject="src\main\java"/>
+        <javaModelGenerator targetPackage="com.tinymall.demo.model" targetProject="src\main\java"/>
         <!--指定生成mapper.xml的路径-->
         <sqlMapGenerator targetPackage="mapping" targetProject="src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.mall.demo.mapper"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.tinymall.demo.mapper"
                              targetProject="src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="pms_brand" domainObjectName="PmsBrand" enableCountByExample="false"
